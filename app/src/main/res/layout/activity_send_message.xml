@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.todo.gumessage.SendMessageActivity">
+
+    <Button
+        android:onClick="asyncMsg"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="异步消息"/>
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:onClick="backMsg"
+        android:text="后台消息"/>
+
+    <Button
+        android:layout_marginTop="200dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:onClick="mainMsg"
+        android:text="主线程消息" />
+
+    <Button
+        android:layout_marginTop="300dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:onClick="mainMsg2"
+        android:text="子线程到主线程消息" />
+</FrameLayout>

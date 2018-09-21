@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GuMessage</string>
+    <string name="title_activity_multi_thread">MultiThreadActivity</string>
+</resources>
