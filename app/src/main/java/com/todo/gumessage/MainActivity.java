@@ -43,6 +43,6 @@ public class MainActivity extends Activity {
     }
 
     public void multiThreadTest(View view) {
-//        startActivity(new Intent(this,MultiThreadActivity.class));
+        startActivity(new Intent(this,MultiThreadActivity.class));
     }
 }
